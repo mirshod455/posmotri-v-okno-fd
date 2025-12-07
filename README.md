@@ -2,7 +2,9 @@
 
 Веб-приложение для просмотра видео из разных городов с возможностью фильтрации по городу и времени суток.
 
-🌐 **Демо:** [https://github.com/mirshod455/posmotri-v-okno-fd](https://github.com/mirshod455/posmotri-v-okno-fd)
+🌐 **Репозиторий:** [https://github.com/mirshod455/posmotri-v-okno-fd](https://github.com/mirshod455/posmotri-v-okno-fd)
+
+🌐 **Демо:** [https://mirshod455.github.io/posmotri-v-okno-fd](https://mirshod455.github.io/posmotri-v-okno-fd)
 =======
 
 ## Возможности
