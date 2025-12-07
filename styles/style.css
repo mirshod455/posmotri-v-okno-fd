@@ -91,7 +91,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-	font-family: 'Fira Sans Condensed';
+	font-family: 'Fira Sans Condensed', sans-serif;
 	color: #fff;
 	font-size: 18px;
 	font-weight: 400;
@@ -120,7 +120,7 @@ ol {
 	border: none;
 	border-top: 1px solid currentColor;
 	border-bottom: 1px solid currentColor;
-	background-color: #1b1919;
+	background-color: transparent;
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
@@ -225,14 +225,6 @@ ol {
 	background-color: #545050;
 }
 
-.content__card-link:active {
-	background-color: #1b1919;
-}
-
-.content__card-link:hover .content__video-card-title {
-	text-decoration: underline;
-}
-
 .content__card-link:focus {
 	outline: none;
 }
@@ -250,6 +242,7 @@ ol {
 
 .content__video-card-description-container {
 	flex-grow: 1;
+	max-width: 50%;
 }
 
 .content__video-card-title {
@@ -274,8 +267,8 @@ ol {
 
 	display: -webkit-box;
 	-webkit-box-orient: vertical;
-	-webkit-line-clamp: 3;
-	line-clamp: 3;
+	-webkit-line-clamp: 4;
+	line-clamp: 4;
 	overflow: hidden;
 }
 
@@ -283,7 +276,7 @@ ol {
 	min-width: 194px;
 	height: 103px;
 
-	object-fit: contain;
+	object-fit: cover;
 	object-position: center;
 }
 
@@ -299,12 +292,15 @@ ol {
 
 /* BUTTONS */
 .button {
+	padding-top: 6px;
+	padding-bottom: 6px;
+
 	border: 1px solid currentColor;
 	background-color: transparent;
 	color: inherit;
 	font-family: inherit;
 	font-size: inherit;
-	font-weight: 400;
+	font-weight: 700;
 	cursor: pointer;
 }
 
@@ -326,8 +322,8 @@ ol {
 }
 
 .search-form__submit-button {
-	width: 194px;
-	height: 34px;
+	padding-left: 73.5px;
+	padding-right: 73.5px;
 	align-self: end;
 }
 
